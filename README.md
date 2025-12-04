@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+My first, super simple Rails "blog" app made by following the "Getting started with Rails" guide on rubyonrails.org. 
+It has functionality to add articles and comments, as well as basic authentication to be able to create a new article or delete a comment. (name: "jeff" password: "lynx")
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Live at: 
