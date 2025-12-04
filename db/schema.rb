@@ -10,10 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.1].define(version: 2025_12_04_190731) do
+ActiveRecord::Schema[8.1].define(version: 2025_12_04_195816) do
   create_table "articles", force: :cascade do |t|
     t.text "body"
     t.datetime "created_at", null: false
+    t.string "status"
     t.string "title"
     t.datetime "updated_at", null: false
   end
@@ -23,6 +24,7 @@ ActiveRecord::Schema[8.1].define(version: 2025_12_04_190731) do
     t.text "body"
     t.string "commenter"
     t.datetime "created_at", null: false
+    t.string "status", default: "public"
     t.datetime "updated_at", null: false
     t.index ["article_id"], name: "index_comments_on_article_id"
   end
